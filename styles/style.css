@@ -12,14 +12,18 @@ aside {
    position: relative;
    width: 300px;
    left: 0;
-   bottom: 0;
+   bottom: 0;  
    top: 0;
    font-size: 16px;
    font-weight: 500;
    padding: 20px;
+   height: 85vh;
    display: flex;
    flex-direction: column;
+   justify-content: space-between;
 }
+
+
 
 .menu {
    display: flex;
@@ -27,16 +31,12 @@ aside {
    position: relative;
 }
 
-.menu ul {
-   width: 100%;
-}
-
 .menu ul li img {
    width: 24px;
 }
 
 .menu ul li {
-   padding: 5px;
+   padding: 10px;
 }
 
 .menu ul li a {
@@ -56,4 +56,21 @@ aside {
 
 .grey-filtered {
    filter: invert(0.5) sepia(70) saturate(0) hue-rotate(0);
+}
+
+.account_img {
+   width: 40px;
+   height: 40px;
+   border-radius: 20px;
+
+}
+
+.account span {
+   color: white;
+}
+
+.account {
+   display: flex;
+   align-items: center;
+   gap: 10px;
 }
